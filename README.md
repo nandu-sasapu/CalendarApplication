@@ -1,141 +1,70 @@
-# Calendar Application
+# Getting Started with Create React App
 
-This is a React-based Calendar Application with admin and user functionalities, built with a structured component hierarchy and Redux for state management.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## Project Structure
+In the project directory, you can run:
 
-```
-src/
-├── components/
-│   ├── Admin/
-│   │   ├── CompanyManagement.js
-│   │   ├── CommunicationMethods.js
-│   │   └── Admin.js
-│   ├── User/
-│   │   ├── Dashboard.js
-│   │   ├── CalendarView.js
-│   │   └── ...
-│   ├── Shared/
-│   │   ├── Header.js
-│   │   ├── Footer.js
-│   │   ├── Home.js
-|   |   └── ExampleComponent.js
-├── redux/
-│   ├── store.js
-│   ├── actions/
-│   │   ├── communicationActions.js
-|   |   ├── companyActions.js
-│   └── reducers/
-│       ├── companyReducer.js
-│       ├── communicationReducer.js
-├── App.js
-├── index.js
-└── App.css
-```
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Features
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### User Features
-- **Dashboard**: Displays a general overview for users.
-- **Calendar View**: Users can interact with and view calendar events.
+### `npm test`
 
-### Admin Features
-- **Admin Authorization**: Only users with admin privileges can access the admin dashboard.
-- **Company Management**: Add, edit, and delete companies.
-- **Communication Methods**: Manage different communication methods.
-- **Dynamic Data Rendering**: Displays the number of companies added and updates in real-time.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Shared Features
-- **Header**: Dynamic links based on admin authorization.
-- **Footer**: Consistent footer across all pages.
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Technologies Used
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **Frontend**: React, React Router, Redux
-- **State Management**: Redux
-- **Styling**: CSS (with gradients and custom styles)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## Installation and Setup
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. **Clone the Repository**:
-   ```bash
-   git clone <your-repo-url>
-   cd <repo-name>
-   ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-3. **Run the Application**:
-   ```bash
-   npm start
-   ```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-4. **View in Browser**:
-   Open `http://localhost:3000` in your browser.
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Git Commands for Setup
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-1. Initialize Git:
-   ```bash
-   git init
-   ```
-2. Add Files:
-   ```bash
-   git add .
-   ```
-3. Commit Changes:
-   ```bash
-   git commit -m "Initial commit"
-   ```
-4. Link to Remote Repository:
-   ```bash
-   git remote add origin <your-github-repo-url>
-   ```
-5. Push to Repository:
-   ```bash
-   git branch -M main
-   git push -u origin main
-   ```
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Usage
+### Analyzing the Bundle Size
 
-- Navigate to `/` for the **Dashboard**.
-- Navigate to `/calendar` for the **Calendar View**.
-- Navigate to `/admin` for the **Admin Dashboard** (admin access only).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
----
+### Making a Progressive Web App
 
-## Future Enhancements
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-1. Integrate a backend for persistent data storage.
-2. Add user authentication for secure access control.
-3. Enhance the calendar functionality with drag-and-drop features.
-4. Include testing with Jest and React Testing Library.
+### Advanced Configuration
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Contributors
+### Deployment
 
-- **Your Name**: Project Lead
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
----
+### `npm run build` fails to minify
 
-## License
-
-This project is licensed under the MIT License.
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
