@@ -1,3 +1,34 @@
+# React-based Calendarapp
+This is a React-based Calendar Application with admin and user functionalities, built with a structured component hierarchy and Redux for state management.
+
+# Folder Structure
+src/
+├── components/
+│   ├── Admin/
+│   │   ├── CompanyManagement.js
+│   │   ├── CommunicationMethods.js
+│   │   └── Admin.js
+│   ├── User/
+│   │   ├── Dashboard.js
+│   │   ├── CalendarView.js
+│   │
+│   ├── Shared/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── Home.js
+│   │   └── ExampleComponent.js
+├── redux/
+│   ├── store.js
+│   ├── actions/
+│   │   ├── companyActions.js
+|   |   ├── communicationActions.js
+│   └── reducers/
+│       ├── companyReducer.js
+│       ├── communicationReducer.js
+├── App.js
+├── index.js
+└── App.css
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
