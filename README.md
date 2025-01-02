@@ -2,6 +2,8 @@
 This is a React-based Calendar Application with admin and user functionalities, built with a structured component hierarchy and Redux for state management.
 
 # Folder Structure
+
+```
 src/
 ├── components/
 │   ├── Admin/
@@ -28,6 +30,8 @@ src/
 ├── App.js
 ├── index.js
 └── App.css
+```
+
 
 # Getting Started with Create React App
 
